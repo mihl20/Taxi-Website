@@ -1,1 +1,14 @@
 
+.top-header {
+    background-image: url('/images/top-background.jpg');
+    height: 800px;
+    width: 100%;
+    color: white;
+}
+
+#top-image {
+    width: 500px;
+    border-radius: 20px;
+    margin-left: 300px;
+    margin-top: 220px;
+}
