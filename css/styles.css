@@ -1,14 +1,42 @@
-
-.top-header {
-    background-image: url('/images/top-background.jpg');
-    height: 800px;
-    width: 100%;
-    color: white;
+.navbar .btn-outline-light:hover {
+  color: #333;
 }
 
-#top-image {
-    width: 500px;
-    border-radius: 20px;
-    margin-left: 300px;
-    margin-top: 220px;
+.navbar .btn-outline-light {
+  border: solid 1px #fff !important;
+}
+
+.navbar {
+  transition: all 0.5s ease-in-out;
+}
+
+.navbar-sticky {
+  opacity: 0.9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.header {
+  background: url(../images/new-background.png) center center no-repeat;
+  background-size: cover;
+  background-color: #ACADBC;
+}
+
+#user-image {
+  box-shadow: -6px 5px 3px #6b6969;
+  border-radius: 15px;
+  width: 500px;
+}
+
+.icons {
+  border: none;
+}
+
+@media (max-width: 1000px) {
+  .hero .image-container {
+    display: flex;
+    justify-content: center;
+  }
+  .hero .text-container {
+    text-align: center;
+  }
 }
