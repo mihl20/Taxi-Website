@@ -19,6 +19,7 @@
   background: url(../images/new-background.png) center center no-repeat;
   background-size: cover;
   background-color: #ACADBC;
+  margin-bottom: -2px;
 }
 
 #user-image {
@@ -27,8 +28,25 @@
   width: 500px;
 }
 
+#about {
+  scroll-margin-top: 70px;
+}
+
+#photos {
+  scroll-margin-top: 150px;
+}
+
 .icons {
   border: none;
+}
+
+.carousel {
+  background-color: #6665DD;
+  margin-top: -2px;
+}
+
+#photo-heading {
+  margin-top: -30px;
 }
 
 @media (max-width: 1000px) {
@@ -37,6 +55,9 @@
     justify-content: center;
   }
   .hero .text-container {
+    text-align: center;
+  }
+  .statement {
     text-align: center;
   }
 }
