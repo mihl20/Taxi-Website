@@ -57,6 +57,11 @@
   border: none;
 }
 
+a[href^=tel] {
+  text-decoration: underline;
+  color: lightblue;
+}
+
 @media (max-width: 1000px) {
   .hero .image-container {
     display: flex;
