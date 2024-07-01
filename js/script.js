@@ -2,7 +2,7 @@ function userScroll() {
     const navbar = document.querySelector('.navbar');
 
     navbar.addEventListener('click', () => {
-        navbar.classList.add('bg-dark');
+        navbar.classList.add('change-nav');
         navbar.classList.add('p-3');
     }
 )
@@ -15,10 +15,10 @@ document.querySelectorAll('.navbar-collapse a').forEach(function(element){
 
     window.addEventListener('scroll', () => {
         if (window.scrollY > 50) {
-            navbar.classList.add('bg-dark');
+            navbar.classList.add('change-nav');
             navbar.classList.add('navbar-sticky');
         } else {
-            navbar.classList.remove('bg-dark');
+            navbar.classList.remove('change-nav');
             navbar.classList.remove('navbar-sticky');
         }
     });

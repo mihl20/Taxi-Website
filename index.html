@@ -4,15 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/fontawesome.css" />
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/styles.css" />
-    <link rel="icon" href="images/mobile-app.png" />
-    <title>Taxi Website</title>
+    <link rel="icon" href="images/icon.png" />
+    <title>Sithole Cabs</title>
   </head>
   <body>
     <!-- primary: jet
@@ -26,10 +28,10 @@
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
       <div class="container">
         <a href="index.html" class="navbar-brand">
-          <img src="images/taxi-logo.png" alt="" width="225" />
+          <img src="images/short-logo.png" alt="" width="225" />
         </a>
-        <p class="fs-2 px-4 pt-3 text-white fw-bold">
-          <a href="tel:123-123-4567">123-123-4567</a>
+        <p class="fs-2 px-1 pt-3 text-light fw-bold">
+          <a href="tel:07907 893204">07907 893204</a>
         </p>
         <button
           class="navbar-toggler"
@@ -42,18 +44,22 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a href="index.html" class="nav-link fw-semibold mx-2">Home</a>
+              <a href="index.html" class="nav-link fw-semibold mx-2 fs-5"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a href="#photos" class="nav-link fw-semibold mx-2">Photos</a>
+              <a href="#photos" class="nav-link fw-semibold mx-2 fs-5"
+                >Photos</a
+              >
             </li>
             <li class="nav-item">
-              <a href="#about" class="nav-link fw-semibold mx-2">About</a>
+              <a href="#about" class="nav-link fw-semibold mx-2 fs-5">About</a>
             </li>
             <li class="nav-item">
               <a
                 href="contact.html"
-                class="nav-link btn btn-outline-light fw-semibold px-4 mx-4 pt-1"
+                class="nav-link btn btn-outline-light fw-semibold px-4 mx-4 pt-1 fs-5"
                 >Advance Bookings</a
               >
             </li>
@@ -71,7 +77,7 @@
               <div class="main-image image-container mb-6 px-4 mt-6">
                 <img
                   id="user-image"
-                  src="images/michael.jpg"
+                  src="images/car-1-new.jpg"
                   alt=""
                   class="img-fluid"
                 />
@@ -81,32 +87,29 @@
               <div
                 class="text-container p-4 d-flex flex-column justify-content-center h-100 mb-5"
               >
-                <h1 class="display-3 fw-bold">Sibo's Taxis</h1>
-                <p class="lead text-white">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Error omnis iste velit quam tempora laborum amet. Quam,
-                  excepturi debitis consequuntur facilis incidunt fuga,
-                  perspiciatis labore dignissimos, provident expedita error
-                  nostrum. Perspiciatis nihil nesciunt delectus harum. Porro
-                  ipsam quia qui accusantium iste ratione, quo distinctio
-                  cupiditate, quas maiores corrupti, laboriosam perferendis.
+                <h1 class="display-3 fw-bold">Sithole Cabs</h1>
+                <p class="lead text-white fs-4">
+                  Sithole cabs is a private-hire, logistics based business based
+                  in Castle Douglas (Scotland). It was founded by Sibo Sithole
+                  in 2024 with the business priding itself on providing
+                  reliable, comfortable and safe rides for our clients.
                 </p>
                 <p class="fs-3 text-white">Opening Hours:</p>
-                <p class="fs-3 text-white">Fri: 1800 - 12.00</p>
-                <p class="fs-3 text-white">Sat: 1600 - 1.00</p>
-                <p class="fs-3 text-white">Sun: 1600 - 12.00</p>
+                <p class="fs-3 text-white">Fri: 6:00pm - 1:00am</p>
+                <p class="fs-3 text-white">Sat: 1:00pm - 1:00am</p>
+                <p class="fs-3 text-white">Sun: 1:00pm - 10:00pm</p>
                 <h2 class="fw-bold">For Taxi Bookings Call:</h2>
-                <a href="tel:123-123-4567" class="fs-2 fw-bold">123-123-4567</a>
+                <a href="tel:07907 893204" class="fs-2 fw-bold">07907 893204</a>
 
                 <!-- form -->
                 <div class="form-container text-center">
                   <form action="">
-                    <div class="d-grid mt-4">
+                    <div class="d-grid mt-5">
                       <a
                         href="contact.html"
-                        class="btn btn-secondary btn-lg text-white"
+                        class="btn btn-light btn-lg text-dark"
                       >
-                        Advance Booking Enquiries
+                        <strong>Advance Booking Enquiries</strong>
                       </a>
                     </div>
                   </form>
@@ -138,15 +141,16 @@
         />
       </svg>
     </header>
+
     <!-- Icons -->
     <section class="icons bg-white pb-5">
       <div class="container-xl">
         <div class="row">
           <div class="col-md-4 d-flex gap-4 p-3">
-            <i class="fa-regular fa-map fa-3x text-secondary"></i>
+            <i class="fa-regular fa-map fa-3x text-info"></i>
             <div>
-              <h5 class="fw-bold">Taxi Area Information</h5>
-              <p class="text-muted">
+              <h5 class="fw-bold pb-1">Taxi Area Information</h5>
+              <p class="text-muted fs-5">
                 My taxi service is located in Dumfries and Galloway and I can be
                 booked for short runs or further afield. If you are looking for
                 airport pickups please contact me to book in advance.
@@ -154,10 +158,10 @@
             </div>
           </div>
           <div class="col-md-4 d-flex gap-4 p-3">
-            <i class="fa-solid fa-car fa-3x text-secondary"></i>
+            <i class="fa-solid fa-car fa-3x text-info"></i>
             <div>
               <h5 class="fw-bold">Paying For Your Taxi</h5>
-              <p class="text-muted">
+              <p class="text-muted fs-5">
                 I take both cash and venmo payments or you can transfer to my
                 account. All journeys need to be paid in advance and prices will
                 be agreed before setting off.
@@ -165,10 +169,10 @@
             </div>
           </div>
           <div class="col-md-4 d-flex gap-4 p-3">
-            <i class="fa-solid fa-star fa-3x text-secondary"></i>
+            <i class="fa-solid fa-star fa-3x text-info"></i>
             <div>
               <h5 class="fw-bold">Five Star Service</h5>
-              <p class="text-muted">
+              <p class="text-muted fs-5">
                 I pride myself on delivering a five star service and want every
                 passenger to have a comfortable and enjoyable journey. My job is
                 to get you from A to B with safety and speed.
@@ -178,6 +182,56 @@
         </div>
       </div>
     </section>
+    <!-- Cards -->
+
+    <!-- Projects -->
+    <section id="projects" class="projects py-6">
+      <div class="container">
+        <!-- Projects Row 1 -->
+        <div class="row mb-4 d-flex justify-content-center">
+          <div class="col-md-4">
+            <div class="card border-1">
+              <img src="images/sibo-new-picture.jpg" alt="" width="400px" />
+              <div class="card-body">
+                <h5 class="card-title">Office space for banking</h5>
+                <p class="card-text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Laborum, temporibus.
+                  <a href="article.html">Read more</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card border-1">
+              <img src="images/car-2-new.jpg" alt="" width="400px" />
+              <div class="card-body">
+                <h5 class="card-title">Planning and design for startup</h5>
+                <p class="card-text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Laborum, temporibus.
+                  <a href="article.html">Read more</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card border-1">
+              <img src="images/map.jpg" alt="" width="400px" />
+              <div class="card-body">
+                <h5 class="card-title">Colours & materials update</h5>
+                <p class="card-text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Laborum, temporibus.
+                  <a href="article.html">Read more</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section>
       <svg
         class="frame-decoration"
@@ -189,7 +243,7 @@
         <defs>
           <style>
             .cls-1 {
-              fill: #6665dd;
+              fill: #3f56a6;
             }
           </style>
         </defs>
@@ -202,7 +256,10 @@
       </svg>
     </section>
     <!-- Carousel -->
-    <section id="photos" class="carousel pt-4 pb-5 text-center text-white">
+    <section
+      id="photos"
+      class="carousel pt-4 pb-5 text-center text-white bg-info"
+    >
       <div class="container">
         <h2 id="photo-heading" class="fw-bold fs-1 pb-5">Photo Gallery</h2>
         <div

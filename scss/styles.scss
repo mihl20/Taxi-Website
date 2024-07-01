@@ -11,20 +11,24 @@
 }
 
 .navbar-sticky {
-    opacity: 0.9;
+    opacity: 0.95;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .header {
-    background: url(../images/new-background.png) center center no-repeat;
+    background: url(../images/new-background-trial.jpg) center center no-repeat;
     background-size: cover;
     background-color: #ACADBC;
     margin-bottom: -2px;
 }
 
+.change-nav {
+    background-color: #3A8ECA;
+}
+
 #user-image {
-    box-shadow: -6px 5px 3px #6b6969;
-    border-radius: 15px;
+    box-shadow: -7px 7px 3px #3F56A6;
+    border-radius: 30px;
     width: 500px;
 }
 
@@ -40,8 +44,14 @@
     border: none;
 }
 
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .carousel {
-    background-color: #6665DD;
     margin-top: -2px;
 }
 
