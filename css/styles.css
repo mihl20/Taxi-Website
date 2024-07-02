@@ -27,28 +27,21 @@
 }
 
 #user-image {
-  box-shadow: -7px 7px 3px #3F56A6;
+  box-shadow: -3px 3px 5px #DAFFED;
   border-radius: 30px;
   width: 500px;
 }
 
-#about {
-  scroll-margin-top: 70px;
+#testimonials {
+  scroll-margin-top: 150px;
 }
 
-#photos {
-  scroll-margin-top: 150px;
+#information {
+  scroll-margin-top: 180px;
 }
 
 .icons {
   border: none;
-}
-
-.card-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .carousel {
@@ -69,7 +62,7 @@
 
 a[href^=tel] {
   text-decoration: underline;
-  color: lightblue;
+  color: #DAFFED;
 }
 
 @media (max-width: 1000px) {
@@ -79,6 +72,9 @@ a[href^=tel] {
   }
   .hero .text-container {
     text-align: center;
+  }
+  .booking-button {
+    margin-top: 10px;
   }
   .statement {
     text-align: center;
