@@ -48,6 +48,10 @@
   scroll-margin-top: 180px;
 }
 
+.hours {
+  margin-bottom: 10px !important;
+}
+
 .icons {
   border: none;
 }
